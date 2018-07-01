@@ -1,0 +1,22 @@
+{
+    "name": "luckymahrus/googleauth",
+    "version": "v1.0.0",
+    "type": "library",
+    "description": "CodeIgniter Users 2Step Authentication using Google Authenticator",
+    "keywords": ["base","codeigniter","crud","libraries","model","scaffold"],
+    "homepage": "https://github.com/luckymahrus/googleauth",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucky Mahrus",
+            "email": "mahrus.lukmanhakim@gmail.com",
+            "homepage": "http://luckymahrus.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.1.6"
+    },
+    "autoload": {
+        "classmap": ["libraries/Google_authenticator.php"]
+    }
+}
